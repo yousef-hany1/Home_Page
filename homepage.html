@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jawraa Homepage</title>
+
+<style>
+* {
+  margin: 0.25rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background: #fff;
+  padding: 0.9375rem 0; 
+  box-shadow: 0 0.125rem 0.3125rem black; 
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 0.625rem; 
+  color: black;
+  font-weight: 500;
+}
+
+.login {
+  background: gold;
+  border: none;
+  padding: 0.5rem 0.9375rem; 
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 3.75rem 0; 
+  background: white;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.875rem; 
+}
+
+.hero h1 {
+  font-size: 2.625rem; 
+  margin-bottom: 0.9375rem; 
+}
+
+.hero p {
+  color: #555;
+  margin-bottom: 1.25rem;
+}
+
+.hero img {
+  width: 26.25rem; 
+  border-radius: 0.75rem; 
+}
+
+.stats {
+  display: flex;
+  gap: 1.5625rem; 
+}
+
+.stats h2 {
+  color: #000;
+}
+
+section {
+  margin-top: 3.75rem; 
+}
+
+h2 {
+  margin-bottom: 1.25rem; 
+}
+
+.cards {
+  display: flex;
+  gap: 1.25rem; 
+}
+
+.card {
+  background: white;
+  padding: 1.25rem; 
+  border-radius: 0.75rem; 
+  box-shadow: 0 0.3125rem 0.9375rem rgba(0,0,0,0.05); 
+  flex: 1;
+}
+
+.grid 
+  { display: flex; 
+  flex-wrap: wrap; 
+  gap: 1.25rem;}
+
+footer {
+  margin-top: 3.75rem; 
+  padding: 1.25rem; 
+  text-align: center;
+  background: #111;
+  color: white;
+}
+
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container nav">
+    <h1>Jawraa</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Partners</a>
+      <a href="#">Clients</a>
+      <button class="login">Login</button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-content">
+    <div>
+      <h1>Leading the Digital Future</h1>
+      <p>
+        We build intelligent digital ecosystems that help organizations
+        modernize infrastructure and create measurable value.
+      </p>
+
+      <div class="stats">
+        <div>
+          <h2>20</h2>
+          <p>Years Experience</p>
+        </div>
+        <div>
+          <h2>1000+</h2>
+          <p>Projects</p>
+        </div>
+        <div>
+          <h2>100+</h2>
+          <p>Partners</p>
+        </div>
+      </div>
+    </div>
+
+    <img src="./Screenshot 2026-05-04 at 10.17.08 AM.png" alt="Building">
+  </div>
+</section>
+
+<section class="container">
+  <h2>Vision, Mission, Ambition</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3> Vision</h3>
+      <p>To lead digital transformation with scalable ecosystems.</p>
+    </div>
+
+    <div class="card">
+      <h3> Mission</h3>
+      <p>Deliver reliable infrastructure, cloud, and services.</p>
+    </div>
+
+    <div class="card">
+      <h3> Ambition</h3>
+      <p>Build impactful digital environments for growth.</p>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>What We Do</h2>
+
+  <div class="grid">
+    <div class="card"> Managed Services</div>
+    <div class="card"> Infrastructure</div>
+    <div class="card"> Systems & Cloud</div>
+    <div class="card"> Cybersecurity</div>
+    <div class="card"> Apple Education</div>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Our Partners</h2>
+
+  <div class="grid">
+    <div class="card">Cisco</div>
+    <div class="card">Huawei</div>
+    <div class="card">Qmatic</div>
+    <div class="card">AppsWave</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2022 All Rights Reserved</p>
+  <p>LinkedIn · X · Facebook</p>
+  <p> Policy | Terms and Conditions</p>
+</footer>
+
+</body>
+</html>
+
